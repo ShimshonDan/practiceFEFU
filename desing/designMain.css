@@ -11,37 +11,40 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Russo One";
+    src: url("/media/el-master/SSD/practice/code/fonts/RussoOne-Regular.ttf");
+}
+
 header {
 	width: 100%;
-	height: 250px;
+	height: 275px;
 	background-color: #0f292f;
 }
 
 .headerText {
-	/* добавить шрифты надо */
+    font-family: "Russo One";
 	text-align: center;
-	padding: 50px;
-	font-size: 35px;
+	padding: 70px;
+	font-size: 70px;
 	color: whitesmoke;
 }
 
-nav ul{
+nav ul{  
  	list-style-type: none;
-    padding: 0px;
     text-align: center;
 }
 
 nav ul li {
     display: inline;
+    margin-left: 20px;
 }
 
 nav ul li a {
+    size: 100px;  
+    font-family: "Russo One";
     color: whitesmoke;
     text-decoration: none;
-}
-
-body{
-	background-color: #cccccc;
 }
 
 section {
