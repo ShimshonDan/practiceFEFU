@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="/media/el-master/SSD/practice/code/desing/reset.css">
 		<link rel='stylesheet' type='text/css' href="/media/el-master/SSD/practice/code/desing/designMain.css">
-		<script src="/media/el-master/SSD/practice/scripts.js"></script>
+		<script src="/media/el-master/SSD/practice/code/scripts.js"></script>
 		<title>ЛетняяПрактика</title>
 	</head>
 	<body>
@@ -25,49 +25,41 @@
 			<h1>Обо мне</h1>
 			<div class="container">
 				<div class="mySlides">
-					<div class="numbertext">1/5</div>
-					  <img src="/media/el-master/SSD/practice/code/slides/1000011471.jpg" style="width:25%">
+					<img src="/media/el-master/SSD/practice/code/slides/1000011471.jpg" style="width:25%">
 				</div>
 				<div class="mySlides">
-					<div class="numbertext">2/5</div>
-					  <img src="/media/el-master/SSD/practice/code/slides/1000010629.jpg" style="width:25%">
+					<img src="/media/el-master/SSD/practice/code/slides/1000010629.jpg" style="width:25%">
 				</div>
 				<div class="mySlides">
-					<div class="numbertext">3/5</div>
-					  <img src="/media/el-master/SSD/practice/code/slides/1000011462.png" style="width:25%">
+					<img src="/media/el-master/SSD/practice/code/slides/1000011462.png" style="width:25%">
 				</div>
 				<div class="mySlides">
-					<div class="numbertext">4/5</div>
-					  <img src="/media/el-master/SSD/practice/code/slides/1000011465.jpg" style="width:25%">
+					<img src="/media/el-master/SSD/practice/code/slides/1000011465.jpg" style="width:25%">
 				</div>
 				<div class="mySlides">
-					<div class="numbertext">5/5</div>
-					  <img src="/media/el-master/SSD/practice/code/slides/1000011463.png" style="width:25%">
+					<img src="/media/el-master/SSD/practice/code/slides/1000011463.png" style="width:25%">
 				</div>
 				
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<a class="prev" onclick="nextSlide()">&#10094;</a>
+  				<a class="next" onclick="previousSlide()">&#10095;</a>
 				
-				<div class="caption-container">
-					<p id="caption"></p>
-				</div>
 				<div class="row">
 					<div class="column">
-					  <img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011471.jpg" style="width:25%" onclick="currentSlide(1)">
+						<img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011471.jpg" style="width:15%" onclick="currentSlide(1)">
 					</div>
 					<div class="column">
-					  <img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000010629.jpg" style="width:25%" onclick="currentSlide(2)">
+						<img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000010629.jpg" style="width:15%" onclick="currentSlide(2)">
 					</div>
 					<div class="column">
-					  <img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011462.png" style="width:25%" onclick="currentSlide(3)">
+						<img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011462.png" style="width:15%" onclick="currentSlide(3)">
 					</div>
 					<div class="column">
-					  <img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011465.jpg" style="width:25%" onclick="currentSlide(4)">
+						<img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011465.jpg" style="width:15%" onclick="currentSlide(4)">
 					</div>
 					<div class="column">
-					  <img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011463.png" style="width:25%" onclick="currentSlide(5)">
+						<img class="demo cursor" src="/media/el-master/SSD/practice/code/slides/1000011463.png" style="width:15%" onclick="currentSlide(5)">
 					</div>
-				  </div> 
+				</div>
 			</div>
 		</section>
 
@@ -81,10 +73,17 @@
 			<div class="Scills">
 				<h1>Навыки</h1>	
 				<div class="scills">
-					Soft-скилы
+					<h1 class="textskills">Soft-скилы</h1>
+					<ol class="rounded">
+						<li>Бесконфиктность</li>
+						<li>Коммуникабельность</li>
+						<li>Высокая обучаемость</li>
+						<li>Аналитический склад ума</li>
+						<li>Готовность работы в командк</li>
+					</ol>
 				</div>
 				<div class="scills">
-					<h1>Hard-скилы</h1>
+					<h1 class="textskills">Hard-скилы</h1>
 				</div>
 			</div>
 		</section>
