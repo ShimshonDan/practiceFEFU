@@ -1,0 +1,61 @@
+/*
+    #501f3a - бордовый
+    #cd2d6f - розовый
+    #cccccc - слоновая кость
+    #14a098 - бирюзовый
+    #0f292f - темно бирюзовый
+*/
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height: 250px;
+	background-color: #0f292f;
+}
+
+.headerText {
+	/* добавить шрифты надо */
+	text-align: center;
+	padding: 50px;
+	font-size: 35px;
+	color: whitesmoke;
+}
+
+nav ul{
+ 	list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body{
+	background-color: #cccccc;
+}
+
+section {
+    padding: 0px;
+    background-color: #fff;
+   	height: 500px;
+}
+
+.Scills {
+	white-space: nowrap;
+}
+.scills{
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
