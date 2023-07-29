@@ -56,12 +56,28 @@ h1{
 section {
     padding-top: 20px;
     margin-left: 5%;
+    margin-bottom: 10px;
     background-color: #fff;
-   	height: 700px;
+
+}
+/*блок обо мне*/
+/*фотогаллерея*/
+.About{
+    margin-top: 10px;
+	white-space: nowrap;
+    height: 700px;
+}
+
+.info{
+	white-space: normal;	
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
 }
 
 .container {
     position: relative;
+    padding-right: 20px;
 }
 
 .mySlides{
@@ -78,7 +94,7 @@ section {
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+    margin-top: 100px;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -88,7 +104,7 @@ section {
 }
 
 .next {
-    left: 22.5%;
+    left: 24.1%;
     border-radius: 3px 0 0 3px;
 }
 
@@ -115,9 +131,83 @@ section {
     opacity: 1;
 }
 
+/*контактная информация*/
+.rectangle {
+    margin-right: 10%;
+    list-style: none; 
+    font: 35px "Russo One";
+}
+
+.rectangle li {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    background: #D3D4DA;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.rectangle li:hover {background: #DCDDE1;}       
+
+.rectangle li:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.rectangle li:hover:after {
+    left: -.5em;
+    border-left-color: #9097A2;
+}
+
+.fio{
+    color:#14a098;
+    font-size: 30px;
+}
+
+.ind{
+    color:#0f292f;
+    font-size: 30px;
+}
+
+/*опыт*/
+.rectangle1{
+    height: 700px;
+    margin-right: 5%;
+    list-style: none; 
+    position: relative;
+    display: block;
+    background: #cccccc;
+    text-decoration: none;
+}
+
+.exp{
+    width: 45%;
+    float: left; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+}
+
+.expText{
+    font: 37px "Russo One";
+    color: #0f292f;
+    padding: 7px;
+    text-indent: 3%;
+}
+
+.marki{
+    background-color: #14a098;
+    color: white;
+}
+
+/*скилы*/
 .Scills {
     margin-top: 10px;
 	white-space: nowrap;
+    height: 600px;
 }
 
 .scills{
@@ -167,4 +257,43 @@ section {
     text-align: center;
     font-weight: bold;
     border-radius: 2em;
+}
+
+/*блок о себе*/
+.live{
+    height:700px;
+}
+
+.textlive{
+    font: 27px "Russo One";
+    color: #14a098;
+}
+
+.txtlive{
+    font: 30px "Russo One";
+    color: #0f292f;
+}
+
+.rectangle2{
+    height: 400px;
+    margin-right: 5%;
+    list-style: none; 
+    position: relative;
+    display: block;
+    background: #cccccc;
+    text-decoration: none;
+}
+
+.txtphoto{
+    float: left; 
+    padding-right: 10px; 
+    padding-bottom: 10px;   
+}
+
+.rectangle3{
+    height: 100px;
+    position: relative;
+    display: block;
+    background: #0f292f;
+    text-decoration: none;
 }
