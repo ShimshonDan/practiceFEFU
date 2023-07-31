@@ -1,0 +1,107 @@
+/*
+    #501f3a - бордовый
+    #cd2d6f - розовый
+    #cccccc - слоновая кость
+    #14a098 - бирюзовый
+    #0f292f - темно бирюзовый
+*/
+
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Russo One";
+    src: url("/media/el-master/SSD/practice/code/fonts/RussoOne-Regular.ttf");
+}
+
+header {
+	width: 100%;
+	height: 275px;
+	background-color: #0f292f;
+}
+
+.headerText {
+    font-family: "Russo One";
+	text-align: center;
+	padding: 70px;
+	font-size: 100px;
+	color: whitesmoke;
+}
+
+h1{
+    color: #cd2d6f;
+    font-family: "Russo One";
+	font-size: 40px;
+}
+
+.mobile{
+    width: 100%;
+    height: 400px;
+    margin-right: 5%;
+    list-style: none; 
+    position: relative;
+    display: block;
+    background: #cccccc;
+    text-decoration: none;
+}
+
+p{
+    font: 30px "Russo One";
+    color: #0f292f;
+    padding: 2px;
+    text-indent: 3%;
+}
+
+.bullet {
+    margin-left: 30%;
+    margin-right: 30%;
+    list-style: none;
+    counter-reset: li;
+}
+
+.bullet li {
+    position: relative;
+    padding: 5px;
+    border-radius: 4px;
+    font: 30px "Russo One";
+}
+
+.bullet li:before {
+    position: absolute;
+    top: -0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #501f3a;
+    background: #FEFEFE;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}
+
+.Iza{
+    
+    width: 100%;
+    height: 400px;
+    margin-right: 5%;
+    list-style: none; 
+    position: relative;
+    display: block;
+    background: whitesmoke;
+    text-decoration: none;
+}
+
+.marki{
+    background-color: #14a098;
+    color: white;
+}
+
+.photo1{
+    float: left;
+}
+
+
