@@ -6,11 +6,12 @@
     #0f292f - темно бирюзовый
 */
 
-*,
-*::after,
-*::before{
+* {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
+
 
 @font-face {
     font-family: "Russo One";
@@ -84,7 +85,6 @@ p{
 }
 
 .Iza{
-    
     width: 100%;
     height: 400px;
     margin-right: 5%;
@@ -95,13 +95,25 @@ p{
     text-decoration: none;
 }
 
+
+img{ 
+    padding-top: 4px;
+    padding-right: 1vh;
+    float: left;
+}
+
+
 .marki{
     background-color: #14a098;
     color: white;
 }
 
-.photo1{
-    float: left;
+.rectangle3{
+    height: 100px;
+    position: relative;
+    display: block;
+    background: #0f292f;
+    text-decoration: none;
+    font: 30px "Russo One";
+    text-align: center;
 }
-
-
